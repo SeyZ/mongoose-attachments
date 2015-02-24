@@ -28,7 +28,8 @@ The following example extends the 'Post' model to use attachments with a propert
 
 ```javascript
 var mongoose = require('mongoose');
-var attachments = require('mongoose-attachments-aws2js');
+require('mongoose-attachments-aws2js');
+var attachments = require('mongoose-attachments');
 
 var PostSchema = new mongoose.Schema({
   title: String,
